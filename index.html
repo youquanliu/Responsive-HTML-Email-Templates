@@ -11,6 +11,14 @@
 		body {
 			Margin: 0;
 			padding: 0;
+			background-color: #f6f9fc;
+			overflow-x: hidden;
+		}
+
+		a {
+			text-decoration: none;
+			color: #388cda;
+			font-size: 16px;
 		}
 
 		table {
@@ -25,6 +33,82 @@
 			border: 0;
 		}
 
+		.wrapper {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			table-layout: fixed;
+			background-color: #f6f9fc;
+			padding-bottom: 40px;
+		}
+
+		.webkit {
+			max-width: 600px;
+			background-color: #ffffff;
+		}
+
+		.outer {
+			/* Capital M with margin for Outlook compatibility */
+			Margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+			border-spacing: 0;
+			font-family: sans-serif;
+			color: #4a4a4a;
+		}
+
+		.innertable {
+			background-color: hsl(209, 69%, 54%);
+			padding: 10px;
+			text-align: center;
+		}
+
+		.logo {
+			width: 180px;
+		}
+
+		.banner {
+			width: 600px;
+		}
+
+		.main {
+			width: 100%;
+			border-spacing: 0;
+		}
+
+		.three-columns {
+			text-align: center;
+			font-size: 0;
+			padding-top: 40px;
+			padding-bottom: 30px;
+		}
+
+		.three-columns .column {
+			width: 100%;
+			max-width: 200px;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.three-columns .column-content {
+			font-size: 20px;
+			line-height: 20px;
+		}
+
+		.padding {
+			padding: 15px;
+		}
+
+		.column-content-paragraph {
+			padding: 10px;
+			font-size: 16px;
+		}
+
+		.column-img {
+			width: 150px;
+			max-width: 150px;
+		}
+
 		@media screen and (max-width: 600px) {}
 
 		@media screen and (max-width: 400px) {}
@@ -33,12 +117,72 @@
 
 <body>
 
-	<div class="email-course" style="margin: 20px 50px;">
-		<a href="https://github.com/youquanliu/Responsive-HTML-Email-Templates" target="_blank"
-			style="background-color: #3273d1;color: white;padding: 15px 32px;text-decoration: none;border-radius: 10px;display: inline-block;font-size: 18px;font-weight: 600;font-family: sans-serif;cursor: pointer;">HTML
-			Github repo</a>
-	</div>
+	<div class="wrapper">
+		<div class="webkit">
+			<table class="outer" aliFgn="center">
+				<h1>test</h1>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td class="innertable">
+									<a href=""><img class="logo" src="./img/prodigy-logo.png" alt="Prodigy logo"
+											title="logo"></a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
 
+				<tr>
+					<td>
+						<a href="https://www.prodigygame.com/"><img class="banner" src="./img/banner.png"
+								alt="Banner"></a>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<table class="main">
+							<tr>
+								<td class="three-columns">
+									<table class="column">
+										<tr>
+											<td class="padding">
+												<table class="column-content">
+													<tr>
+														<td>
+															<a href="#"><img class="column-img" src="./img/Puppet.png"
+																	alt=""></a>
+														</td>
+													</tr>
+													<tr>
+														<td class="column-content-paragraph">
+															<h3>Puppet Master</h3>
+															<p>The Puppet Master is an NPC, and the main antagonist of
+																Prodigy. At the beginning he scatters the five Warden
+																Keystones but thinks that he destroyed them. He has a
+																puppet-like assistant, called Pippet which follows his
+																orders.</p>
+															<a
+																href="https://prodigy-math-game.fandom.com/wiki/The_Puppet_Master#:~:text=The%20Puppet%20Master%20is%20an,Pippet%20which%20follows%20his%20orders.">Learn
+																More..</a>
+
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
 </body>
 
 </html>
