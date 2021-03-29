@@ -6,8 +6,8 @@ A complete mobile friendly HTML Email Template with responsive HTML tables.The e
 
 ## Techologies Used
 
-* Html
-* Css
+* HTML
+* CSS
 
 
 ### Tested on [PutsMail](https://putsmail.com/)
