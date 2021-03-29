@@ -10,5 +10,5 @@ A complete mobile friendly HTML Email Template with responsive HTML tables.The e
 * Css
 
 
-### Tested on [OutsMail](https://putsmail.com/)
+### Tested on [PutsMail](https://putsmail.com/)
 
